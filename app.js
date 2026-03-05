@@ -604,7 +604,7 @@ docker mcp catalog --help</code><button class="copy-btn">Copy</button></pre>
         title: "Example: MCP Student Server",
         content: `
             <p>Want to see a complete, real-world example? Check out the <strong>MCP Student Server</strong> — a project built for learning purposes as part of the Applied AI course at Howest.</p>
-            <p><a href="https://github.com/howest-ti-aai/ai-example-mcp-student-score" target="_blank">github.com/howest-ti-aai/ai-example-mcp-student-score</a></p>
+            <p><a href="https://github.com/dimitricasierhowest/ai-example-mcp-student-score" target="_blank">https://github.com/dimitricasierhowest/ai-example-mcp-student-score</a></p>
             <p>It demonstrates how to build and deploy a custom MCP server using <strong>Deno + TypeScript</strong> and <strong>Docker</strong>. The server manages student scores for classes and assignments, with scores persisted to a <code>scores.json</code> file mounted via a Docker volume.</p>
 
             <table style="width:100%; border-collapse:collapse; margin-top:1.5rem;">
