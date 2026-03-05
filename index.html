@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MCP Learning Wizard</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="progress-bar">
+        <div class="progress-fill" id="progress-fill"></div>
+    </div>
+    
+    <main class="wizard-container" id="wizard-container">
+        <!-- Slides will be injected here by app.js -->
+    </main>
+
+    <footer class="wizard-controls">
+        <button id="btn-prev" class="btn" aria-label="Previous step">Back</button>
+        <div class="step-indicator" id="step-indicator">1 / ?</div>
+        <button id="btn-next" class="btn" aria-label="Next step">Next</button>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
